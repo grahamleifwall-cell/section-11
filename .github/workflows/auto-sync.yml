@@ -11,21 +11,21 @@ on:
                   steps:
                         - uses: actions/checkout@v4
 
-                                    - name: Set up Python
-                                            uses: actions/setup-python@v4
-                                                    with:
-                                                              python-version: '3.11'
+                              - name: Set up Python
+                                      uses: actions/setup-python@v4
+                                              with:
+                                                        python-version: '3.11'
 
-                                                                          - name: Run sync script
-                                                                                  env:
-                                                                                            ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
-                                                                                                      INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
-                                                                                                              run: python3 examples/sync.py --output latest.json
-                                                                                                                    
-                                                                                                                          - name: Commit and push changes
-                                                                                                                                  run: |
-                                                                                                                                            git config --local user.email "action@github.com"
-                                                                                                                                                      git config --local user.name "GitHub Action"
-                                                                                                                                                                git add latest.json history.json intervals.json routes.json || true
-                                                                                                                                                                          git commit -m "chore: auto-sync intervals.icu data" || true
-                                                                                                                                                                                    git push
+                                                              - name: Run sync script
+                                                                      env:
+                                                                                ATHLETE_ID: ${{ secrets.ATHLETE_ID }}
+                                                                                          INTERVALS_KEY: ${{ secrets.INTERVALS_KEY }}
+                                                                                                  run: python3 examples/sync.py --output latest.json
+
+                                                                                                        - name: Commit and push changes
+                                                                                                                run: |
+                                                                                                                          git config --local user.email "action@github.com"
+                                                                                                                                    git config --local user.name "GitHub Action"
+                                                                                                                                              git add latest.json history.json intervals.json routes.json || true
+                                                                                                                                                        git commit -m "chore: auto-sync intervals.icu data" || true
+                                                                                                                                                                  git push
