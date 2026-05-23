@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-23T15:03:53.370705",
+    "last_updated": "2026-05-23T16:12:41.935550",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -278,7 +278,7 @@
       "respiration": 12.5,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11701,
+      "steps": 11915,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -629,9 +629,9 @@
           "current_week_hard_days_completed": 1,
           "current_week_hard_days_total": 1,
           "race_proximity": null,
-          "next_week_load": 1.15,
+          "next_week_load": 0.76,
           "plan_coverage_current_week": 0.5,
-          "plan_coverage_next_week": 1.75
+          "plan_coverage_next_week": 1.25
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -666,7 +666,7 @@
     "p_max": 504,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 54.0,
-    "calculation_timestamp": "2026-05-23T15:03:53.369795",
+    "calculation_timestamp": "2026-05-23T16:12:41.934368",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2353,7 +2353,7 @@
       "respiration": 12.5,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 11701,
+      "steps": 11915,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2397,13 +2397,13 @@
       "name": "VO2max Intervals",
       "type": "WORKOUT",
       "sport_type": "Ride",
-      "planned_tss": 61,
-      "duration_hours": 0.85,
-      "duration_formatted": "51m",
-      "workout_summary": "5m @130W | 5m @225W | 6\u00d73m @304W / 3m rec | 5m @130W",
+      "planned_tss": 28,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
       "has_terrain": false,
       "indoor": true,
-      "description": "- Warmup Phase 1 R24-26 H110-125 5m 45-48% FTP 85-90rpm\n- Warmup Phase 2 R42-44 H135-152 5m 78-83% FTP 90-95rpm\n\n6x\n  - VO2 R60 H155-172 3m 105-112% FTP 90-95rpm\n  - Recover R28-30 H110-125 3m 40-45% FTP 85-90rpm\n\n- Cooldown R24-26 H100-115 5m 45-48% FTP 80-85rpm"
+      "description": "- Warmup R28-30 H105-118 5m 40-45% FTP 80-85rpm\n- Easy Ride R34-36 H118-128 35m 60-68% FTP 85-90rpm\n- Cooldown R24-26 H100-110 5m 40-45% FTP 80-85rpm"
     },
     {
       "id": 110964838,
@@ -2411,88 +2411,61 @@
       "name": "Tue May 26 \u2014 Z2 Aerobic Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 25,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": 19,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 35m 72-80% LTHR\n- Cooldown 5m 60-65% LTHR"
-    },
-    {
-      "id": 110964870,
-      "date": "2026-05-27",
-      "name": "Recovery Ride",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 26,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "indoor": true,
-      "description": "- Warmup R28-30 H105-118 5m 40-45% FTP 80-85rpm\n- Recovery Ride R34-36 H118-128 30m 60-68% FTP 85-90rpm\n- Cooldown R24-26 H100-110 10m 40-45% FTP 80-85rpm"
+      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 30m 70-78% LTHR\n- Cooldown 5m 60-65% LTHR"
     },
     {
       "id": 110964932,
       "date": "2026-05-28",
       "name": "Track Sprints",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 38,
-      "duration_hours": 0.97,
-      "duration_formatted": "58m",
-      "workout_summary": "10m @120bpm | 10\u00d71m @180bpm / 3m rec | 8m @116bpm",
+      "sport_type": "Ride",
+      "planned_tss": 28,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "- Warmup 10m 65-75% LTHR\n\n10x\n  - Sprint 1m 100-110% LTHR\n  - Full Recovery 3m 60-65% LTHR\n\n- Cooldown 8m 65-70% LTHR"
+      "indoor": true,
+      "description": "- Warmup R28-30 H105-118 5m 40-45% FTP 80-85rpm\n- Easy Ride R34-36 H118-128 35m 60-68% FTP 85-90rpm\n- Cooldown R24-26 H100-110 5m 40-45% FTP 80-85rpm"
     },
     {
       "id": 110965484,
       "date": "2026-05-29",
       "name": "Rest Day",
-      "type": "NOTE",
-      "sport_type": null,
-      "planned_tss": null,
-      "duration_hours": 0.0,
-      "duration_formatted": "0s",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 22,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": ""
+      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 35m 70-78% LTHR\n- Cooldown 5m 60-65% LTHR"
     },
     {
       "id": 110964967,
       "date": "2026-05-30",
       "name": "Sat May 30 \u2014 Sweet Spot",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 72,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
-      "workout_summary": "5m @130W | 5m @210W | 2\u00d720m @253W / 5m rec | 5m @130W",
-      "has_terrain": false,
-      "indoor": true,
-      "description": "- Warmup Phase 1 R24-26 H110-125 5m 45-48% FTP 85-90rpm\n- Warmup Phase 2 R40-42 H128-145 5m 72-78% FTP 90-95rpm\n\n2x\n  - Sweet Spot R52-54 H148-160 20m 88-93% FTP 90-95rpm\n  - Recover R30 H110-125 5m 45-50% FTP 85-90rpm\n\n- Cooldown R24-26 H100-115 5m 45-48% FTP 80-85rpm"
-    },
-    {
-      "id": 110965284,
-      "date": "2026-05-31",
-      "name": "Moderate Long Run",
-      "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 41,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
+      "planned_tss": 28,
+      "duration_hours": 0.65,
+      "duration_formatted": "39m",
+      "workout_summary": "10m @120bpm | 4\u00d73m @168bpm / 3m rec | 5m @116bpm",
       "has_terrain": false,
-      "description_preview": "- Warmup 5m 65-70% LTHR\n- Moderate Long Run 50m 75-85% LTHR\n- Cooldown 5m 65-70% LTHR"
+      "description": "- Warmup 10m 65-75% LTHR\n\n4x\n  - Hard Effort 3m 95-100% LTHR\n  - Easy Jog 3m 60-65% LTHR\n\n- Cooldown 5m 65-70% LTHR"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 7,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 6,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 4.61,
