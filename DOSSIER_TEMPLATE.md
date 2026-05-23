@@ -26,8 +26,8 @@ This document serves as a reference template for endurance athletes using the de
 
 | Field | Value |
 |-------|-------|
-| Name | [Your name or alias] |
-| Age | [Age] |
+| Name | Graham |
+| Age | 46 |
 | Height | [cm] |
 | Current Weight | [kg] |
 | Target Weight | [kg] |
