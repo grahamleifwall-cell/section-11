@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T20:44:07.168570",
+    "last_updated": "2026-05-25T21:54:53.453738",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -149,10 +149,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Build",
+      "phase": "Base",
       "phase_week": 1,
-      "amber_threshold": 3,
-      "modifier_applied": "build_loosened"
+      "amber_threshold": 2,
+      "modifier_applied": "default"
     },
     "race_week_defers": false,
     "modification": null,
@@ -200,10 +200,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 35.26,
-      "atl": 38.67,
-      "tsb": -3.41,
-      "ramp_rate": 1.91,
+      "ctl": 34.72,
+      "atl": 35.61,
+      "tsb": -0.89,
+      "ramp_rate": 1.37,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -269,7 +269,7 @@
       "respiration": 12.625,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7355,
+      "steps": 7487,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -582,25 +582,20 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.17,
+    "consistency_index": 1.0,
     "consistency_details": {
-      "planned_days": 6,
+      "planned_days": 1,
       "completed_days": 1,
       "matched_days": 1,
       "planned_dates": [
-        "2026-05-19",
-        "2026-05-20",
-        "2026-05-21",
-        "2026-05-22",
-        "2026-05-23",
-        "2026-05-25"
+        "2026-05-20"
       ],
       "completed_dates": [
         "2026-05-20"
       ]
     },
     "phase_detection": {
-      "phase": "Build",
+      "phase": "Base",
       "confidence": "medium",
       "reason_codes": [],
       "basis": {
@@ -611,13 +606,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.67,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 0.86,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 2,
+          "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.6,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -628,7 +623,7 @@
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Build",
+    "phase_detected": "Base",
     "phase_triggers": [],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -651,13 +646,13 @@
     "p_max": 504,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 55.0,
-    "calculation_timestamp": "2026-05-25T20:44:07.167418",
+    "calculation_timestamp": "2026-05-25T21:54:53.452483",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
       "activities_7d": 6,
       "activities_28d": 17,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2475,7 +2470,7 @@
       "respiration": 12.625,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 7355,
+      "steps": 7487,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -2488,79 +2483,55 @@
   ],
   "planned_workouts": [
     {
-      "id": 110964695,
-      "date": "2026-05-25",
-      "name": "Easy Run",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 23,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 35m 70-78% LTHR\n- Cooldown 5m 60-65% LTHR"
-    },
-    {
-      "id": 110964838,
+      "id": 112330285,
       "date": "2026-05-26",
-      "name": "Tue May 26 \u2014 Z2 Aerobic Run",
+      "name": "Easy Aerobic Run",
       "type": "WORKOUT",
       "sport_type": "Run",
-      "planned_tss": 19,
-      "duration_hours": 0.67,
-      "duration_formatted": "40m",
+      "planned_tss": 47,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 30m 70-78% LTHR\n- Cooldown 5m 60-65% LTHR"
+      "start_time": "06:00",
+      "description": "Warmup\n- 10m 5:42 Pace\n\nMain Set\n- 25m 5:22 Pace\n\nCooldown\n- 10m 5:42 Pace"
     },
     {
-      "id": 110964932,
+      "id": 112330358,
+      "date": "2026-05-27",
+      "name": "Easy Recovery Run",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 25,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "06:00",
+      "description": "Warmup\n- 10m 5:42 Pace\n\nMain Set\n- 10m 5:42 Pace\n\nCooldown\n- 5m 5:42 Pace"
+    },
+    {
+      "id": 112330379,
       "date": "2026-05-28",
-      "name": "Track Sprints",
+      "name": "Easy Aerobic Run",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 28,
+      "sport_type": "Run",
+      "planned_tss": 47,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
-      "description": "- Warmup R28-30 H105-118 5m 40-45% FTP 80-85rpm\n- Easy Ride R34-36 H118-128 35m 60-68% FTP 85-90rpm\n- Cooldown R24-26 H100-110 5m 40-45% FTP 80-85rpm"
-    },
-    {
-      "id": 110965484,
-      "date": "2026-05-29",
-      "name": "Rest Day",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 22,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 35m 70-78% LTHR\n- Cooldown 5m 60-65% LTHR"
-    },
-    {
-      "id": 110964967,
-      "date": "2026-05-30",
-      "name": "Sat May 30 \u2014 Sweet Spot",
-      "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 28,
-      "duration_hours": 0.65,
-      "duration_formatted": "39m",
-      "workout_summary": "10m @120bpm | 4\u00d73m @168bpm / 3m rec | 5m @116bpm",
-      "has_terrain": false,
-      "description": "- Warmup 10m 65-75% LTHR\n\n4x\n  - Hard Effort 3m 95-100% LTHR\n  - Easy Jog 3m 60-65% LTHR\n\n- Cooldown 5m 65-70% LTHR"
+      "start_time": "06:00",
+      "description": "Warmup\n- 10m 5:42 Pace\n\nMain Set\n- 25m 5:22 Pace\n\nCooldown\n- 10m 5:42 Pace"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 3,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 4
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 5.04,
