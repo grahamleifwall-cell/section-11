@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T21:54:53.449147",
+  "generated_at": "2026-05-25T23:00:18.007451",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -1072,6 +1072,20 @@
           "avg_hr": 132,
           "max_hr": 132,
           "avg_cadence": 83.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i151465270",
+      "date": "2026-05-25",
+      "type": "Run",
+      "name": "New Orleans Other",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3901,
           "zone": 1
         }
       ]
