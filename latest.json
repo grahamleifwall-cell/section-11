@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-25T17:23:53.214140",
+    "last_updated": "2026-05-25T19:00:59.640073",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.112"
@@ -620,7 +620,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.5,
+          "planned_tss_delta": 0.67,
           "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 2,
@@ -660,7 +660,7 @@
     "p_max": 504,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-25T17:23:53.212916",
+    "calculation_timestamp": "2026-05-25T19:00:59.638869",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
@@ -2397,16 +2397,15 @@
     {
       "id": 110964695,
       "date": "2026-05-25",
-      "name": "Easy Ride",
+      "name": "Easy Run",
       "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 28,
+      "sport_type": "Run",
+      "planned_tss": 23,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
       "has_terrain": false,
-      "indoor": true,
-      "description": "- Warmup R28-30 H105-118 5m 40-45% FTP 80-85rpm\n- Easy Ride R34-36 H118-128 35m 60-68% FTP 85-90rpm\n- Cooldown R24-26 H100-110 5m 40-45% FTP 80-85rpm"
+      "description": "- Warmup 5m 65-70% LTHR\n- Easy Run 35m 70-78% LTHR\n- Cooldown 5m 60-65% LTHR"
     },
     {
       "id": 110964838,
