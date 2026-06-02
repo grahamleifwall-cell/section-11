@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T23:26:31.307548",
+  "generated_at": "2026-06-02T01:59:19.880596",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -757,27 +757,6 @@
           "max_hr": 137,
           "avg_cadence": 82.0,
           "zone": 1
-        }
-      ]
-    },
-    {
-      "activity_id": "i149531892",
-      "date": "2026-05-18",
-      "type": "VirtualRide",
-      "name": "Easy Ride",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3315,
-          "avg_power": 167,
-          "max_power": 311,
-          "avg_hr": 120,
-          "max_hr": 139,
-          "avg_cadence": 89.20018,
-          "zone": 2,
-          "training_load": 38.054848,
-          "decoupling": 12.393568
         }
       ]
     },
