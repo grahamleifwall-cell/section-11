@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T10:19:39.377973",
+  "generated_at": "2026-06-03T15:15:03.628939",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2131,6 +2131,153 @@
           "avg_hr": 138,
           "max_hr": 138,
           "avg_cadence": 82.0,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i153903936",
+      "date": "2026-06-03",
+      "type": "Run",
+      "name": "Atlantic City - W2 Wed Easy Run #2 - 7km Easy Ru",
+      "interval_summary": [
+        "14x 2m42s 129bpm",
+        "1x 2s 141bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 175,
+          "avg_hr": 117,
+          "max_hr": 126,
+          "avg_cadence": 78.66286,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 166,
+          "avg_hr": 122,
+          "max_hr": 126,
+          "avg_cadence": 82.656624,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 163,
+          "avg_hr": 125,
+          "max_hr": 129,
+          "avg_cadence": 82.760735,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 161,
+          "avg_hr": 124,
+          "max_hr": 128,
+          "avg_cadence": 83.18633,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 163,
+          "avg_hr": 126,
+          "max_hr": 129,
+          "avg_cadence": 82.5092,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 159,
+          "avg_hr": 129,
+          "max_hr": 134,
+          "avg_cadence": 82.974846,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 159,
+          "avg_hr": 131,
+          "max_hr": 136,
+          "avg_cadence": 83.125786,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 158,
+          "avg_hr": 133,
+          "max_hr": 137,
+          "avg_cadence": 83.044304,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 160,
+          "avg_hr": 132,
+          "max_hr": 137,
+          "avg_cadence": 82.85625,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 163,
+          "avg_hr": 132,
+          "max_hr": 136,
+          "avg_cadence": 82.337425,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 165,
+          "avg_hr": 132,
+          "max_hr": 135,
+          "avg_cadence": 82.624245,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 161,
+          "avg_hr": 132,
+          "max_hr": 136,
+          "avg_cadence": 82.459625,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 157,
+          "avg_hr": 133,
+          "max_hr": 137,
+          "avg_cadence": 82.88535,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "162s@129bpm83rpm",
+          "duration_secs": 161,
+          "avg_hr": 136,
+          "max_hr": 141,
+          "avg_cadence": 83.04348,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2s@141bpm82rpm",
+          "duration_secs": 2,
+          "avg_hr": 141,
+          "max_hr": 141,
+          "avg_cadence": 81.5,
           "zone": 2
         }
       ]
