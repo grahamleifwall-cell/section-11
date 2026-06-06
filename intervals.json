@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T23:45:55.525007",
+  "generated_at": "2026-06-06T02:59:09.034920",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -2129,6 +2129,125 @@
           "duration_secs": 1,
           "avg_hr": 137,
           "max_hr": 137,
+          "avg_cadence": 83.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i154684591",
+      "date": "2026-06-05",
+      "type": "Run",
+      "name": "New Orleans - W2 Fri Easy Run #4 - 5.5km Easy",
+      "interval_summary": [
+        "10x 2m43s 124bpm",
+        "1x 23m52s 119bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 176,
+          "avg_hr": 113,
+          "max_hr": 125,
+          "avg_cadence": 77.84091,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 161,
+          "avg_hr": 118,
+          "max_hr": 123,
+          "avg_cadence": 83.62733,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 158,
+          "avg_hr": 122,
+          "max_hr": 126,
+          "avg_cadence": 83.72152,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 154,
+          "avg_hr": 126,
+          "max_hr": 129,
+          "avg_cadence": 83.71429,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 166,
+          "avg_hr": 129,
+          "max_hr": 134,
+          "avg_cadence": 81.582275,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 158,
+          "avg_hr": 132,
+          "max_hr": 137,
+          "avg_cadence": 83.78481,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 162,
+          "avg_hr": 133,
+          "max_hr": 137,
+          "avg_cadence": 82.38994,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1432s@119bpm81rpm",
+          "duration_secs": 1432,
+          "avg_hr": 119,
+          "max_hr": 134,
+          "avg_cadence": 81.33125,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 157,
+          "avg_hr": 123,
+          "max_hr": 127,
+          "avg_cadence": 84.1465,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 184,
+          "avg_hr": 122,
+          "max_hr": 128,
+          "avg_cadence": 82.051285,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "163s@124bpm83rpm",
+          "duration_secs": 156,
+          "avg_hr": 126,
+          "max_hr": 130,
+          "avg_cadence": 82.92949,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 129,
+          "max_hr": 129,
           "avg_cadence": 83.0,
           "zone": 1
         }
